@@ -1,0 +1,36 @@
+/* sudozaid.wiki — brand polish (gold accent on a black base) */
+
+:root {
+  --md-accent-fg-color: #ffc83d;
+  --md-accent-fg-color--transparent: rgba(255, 200, 61, 0.1);
+}
+
+/* Slate (dark) tuning */
+[data-md-color-scheme="slate"] {
+  --md-hue: 232;
+  --md-default-bg-color: #0d0f12;
+  --md-primary-fg-color: #0d0f12;
+  --md-typeset-a-color: #ffc83d;
+}
+
+/* subtle gold hairline under the header */
+.md-header {
+  border-bottom: 1px solid rgba(255, 200, 61, 0.12);
+}
+
+/* make the hero buttons pop a touch */
+.md-typeset .md-button--primary {
+  color: #0d0f12;
+  background-color: #ffc83d;
+  border-color: #ffc83d;
+}
+
+/* code blocks: a hint of warmth on the border */
+[data-md-color-scheme="slate"] .md-typeset pre > code {
+  border: 1px solid rgba(255, 200, 61, 0.06);
+}
+
+/* grid cards hover */
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: rgba(255, 200, 61, 0.35);
+}

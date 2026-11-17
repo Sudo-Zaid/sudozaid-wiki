@@ -1,0 +1,126 @@
+site_name: sudozaid.wiki
+site_url: https://sudozaid.wiki/
+site_author: Muhammad Zaid
+site_description: >-
+  CTF writeups and offensive-security notes by Muhammad Zaid (sudo-zaid) —
+  pwn, reversing, crypto, web, forensics, OSINT, ICS and AI security.
+copyright: Copyright &copy; 2026 Muhammad Zaid (sudo-zaid)
+
+repo_url: https://github.com/sudo-zaid/sudozaid-wiki
+repo_name: sudo-zaid/sudozaid-wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/skull-outline
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sudo-zaid
+      name: GitHub — sudo-zaid
+    - icon: material/web
+      link: https://sudozaid.cypherai.tech
+      name: Portfolio
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/YOUR-HANDLE
+    #   name: LinkedIn
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - CTF Writeups:
+      - ctf/index.md
+      - CyberChess 2026:
+          - ctf/cyberchess-2026/index.md
+          - ctf/cyberchess-2026/01-operation-phantom-runner.md
+          - ctf/cyberchess-2026/02-locker.md
+          - ctf/cyberchess-2026/03-pump-it.md
+          - ctf/cyberchess-2026/04-twisted-cloud.md
+          - ctf/cyberchess-2026/05-metrocontrol.md
+          - ctf/cyberchess-2026/06-siren.md
+          - ctf/cyberchess-2026/07-shard-council.md
+          - ctf/cyberchess-2026/08-phase-phantom.md
+          - ctf/cyberchess-2026/09-perimeter-zero.md
+          - ctf/cyberchess-2026/10-ghz-collapse.md
+          - ctf/cyberchess-2026/11-controlled-meltdown.md
+          - ctf/cyberchess-2026/12-smartbridge.md
+          - ctf/cyberchess-2026/13-the-debug-door.md
+          - ctf/cyberchess-2026/14-unfinished-business.md
+          - ctf/cyberchess-2026/15-gradient-heist.md
+          - ctf/cyberchess-2026/16-final-key.md
+          - ctf/cyberchess-2026/17-weaklink-2.md
+          - ctf/cyberchess-2026/18-dash-rush.md
+  - About: about.md
