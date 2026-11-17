@@ -1,17 +1,8 @@
 ---
+template: home.html
 hide:
+  - navigation
   - toc
----
-
-# sudozaid.wiki
-
-**Offensive-security writeups & notes by [Muhammad Zaid (`sudo-zaid`)](https://github.com/sudo-zaid).**
-
-CTF solves, exploitation notes and field-tested techniques — pwn, reversing, crypto, web, forensics, OSINT, ICS and AI security. Documented the way I actually solved them: the flag, the real vulnerability, and the exact steps.
-
-[Browse CTF writeups :material-arrow-right:](ctf/index.md){ .md-button .md-button--primary }
-[Portfolio :material-web:](https://sudozaid.cypherai.tech){ .md-button }
-
 ---
 
 ## Featured
@@ -28,13 +19,15 @@ CTF solves, exploitation notes and field-tested techniques — pwn, reversing, c
 
     [:octicons-arrow-right-24: 18 writeups](ctf/cyberchess-2026/index.md)
 
+-   :material-folder-search-outline:{ .lg .middle } &nbsp; **More events incoming**
+
+    ---
+
+    Cold Room (HTB × Google) · Hackerverse DFIR · DayZer0 · StarPWN · HTB Cyber Apocalypse — migrating here as embargoes lift.
+
+    [:octicons-arrow-right-24: All writeups](ctf/index.md)
+
 </div>
 
----
-
-## About this site
-
-I'm a BSCS student and offensive-security researcher focused on CTFs, pentesting and vulnerability research. New writeups land here after each event — once any competition embargo has lifted.
-
 !!! note "How these are written"
-    Writeups are documented with the help of Claude Code, from my own screenshots and notes. The solving is mine; the typing isn't.
+    Documented with the help of Claude Code, from my own screenshots and notes — the solving is mine. Only CTF &amp; learning content lives here; real-world findings go through responsible disclosure.
