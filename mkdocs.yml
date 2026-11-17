@@ -6,10 +6,6 @@ site_description: >-
   pwn, reversing, crypto, web, forensics, OSINT, ICS and AI security.
 copyright: Copyright &copy; 2026 Muhammad Zaid (sudo-zaid)
 
-repo_url: https://github.com/sudo-zaid/sudozaid-wiki
-repo_name: sudo-zaid/sudozaid-wiki
-edit_uri: edit/main/docs/
-
 theme:
   name: material
   custom_dir: overrides
